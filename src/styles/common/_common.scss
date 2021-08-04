@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 116px;
+  line-height: 136px;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 68px;
+  color: $accent-color;
+  text-align: center;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}

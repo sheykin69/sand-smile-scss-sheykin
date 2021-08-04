@@ -1,27 +1,36 @@
+/* MAIN SCREEN */
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
+  background-image: url(/img/main-sreen.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.promo-inner {
-  margin: 0 auto;
-  width: 1024px;
-
-  @media (max-width: 1279px) {
-    width: auto;
-    max-width: 1024px;
-  }
+.promo-bg {
+  background: linear-gradient(180deg, rgba(21, 43, 60, 0.5) 0%, rgba(21, 43, 60, 0.4) 32.81%, rgba(21, 43, 60, 0.4) 100%), url(.jpg);
 }
 
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
+.promo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
-  }
+.promo-title {
+  padding-top: 191px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 116px;
+  line-height: 136px;
+  color: white;
+}
 
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
-  }
+.promo-text {
+  text-align: center;
+  width: 1100px;
+  padding-bottom: 273px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
 }
