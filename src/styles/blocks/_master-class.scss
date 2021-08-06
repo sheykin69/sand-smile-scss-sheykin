@@ -1,0 +1,74 @@
+.master-class-bg {
+  background-color: rgba(251, 242, 218, 0.2);
+}
+
+.master-class-card-row {
+  display: flex;
+}
+
+.master-class-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.33%;
+  height: 730px;
+  margin: 0 15px;
+  padding-bottom: 33px;
+  background-color: #fff;
+  border: 1px solid rgba(21, 43, 60, 0.1);
+  border-radius: 8px;
+
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 16px;
+  }
+
+  & span {
+    color: $accent-color;
+    font-weight: bold;
+  }
+
+  & :nth-child(2) {
+    margin-top: 30px;
+  }
+}
+
+.master-class-card-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &.price a {
+    margin-top: 0;
+  }
+
+  &.price p {
+    margin-bottom: 0;
+  }
+}
+
+.master-class-card-title {
+  font-family: Raleway;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  color: #152B3C;
+}
+
+.master-class-card-text {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 25px;
+  color: #152B3C;
+}
+
+.master-class-card-price {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  color: $accent-color;
+  // margin-top: 80px;
+}
