@@ -95,30 +95,50 @@
   }
 
   label {
+    display: flex;
     font-family: Open Sans;
     font-size: 20px;
     line-height: 27px;
     color: #152B3C;
   }
 
-  label::before {
+  label:before {
     content: "";
     display: inline-block;
+    flex-shrink: 0;
+
     width: 27px;
     height: 27px;
     margin-right: 11px;
+
     border: 2px solid $accent-color;
     border-radius: 3px;
   }
 
   input:checked+label:before {
-    background-image: url(/icons/checkbox.svg);
-    border: none;
     margin-right: 11px;
+
+    border: 2px solid $accent-color;
+    border-radius: 3px;
+    background-image: url(/icons/checkbox.svg);
+    background-position: center;
   }
 }
 
 .form-confirm {
   display: flex;
   flex-direction: row;
+  height: 54px;
+}
+
+.personal_data {
+  color: $accent-color;
+}
+
+
+
+form>.btn {
+  width: 100%;
+  border: none;
+  margin-bottom: 90px;
 }
