@@ -1,0 +1,50 @@
+.locations-bg {
+  background-color: rgba(251, 242, 218, 0.2);
+}
+
+.locations-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  a{
+    width: 50%;
+    text-decoration: none;
+  }
+}
+
+.locations-card-border {
+  padding: 15px;
+}
+
+.locations-card {
+  height: 272px;
+  padding: 30px;
+  padding-right: 53px;
+  border-radius: 8px;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.locations-card-flex {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.locations-card-title {
+  font-family: Roboto;
+  font-size: 40px;
+  line-height: 47px;
+  color: $sand-color;
+}
+
+.locations-card-text {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  color: $sand-color;
+}
