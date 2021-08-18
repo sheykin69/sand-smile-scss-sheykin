@@ -7,29 +7,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SandSmile</title>
   <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
 </head>
 
 <body>
 
-  <main>
+  <!-- HEADER -->
+  <header>
 
-    <!-- HEADER -->
-    <header>
-      <div class="header">
-        <div class="container">
+    <div class="header">
+      <div class="container">
+        <div class="header-row">
+
+          <div class="logo"><a href="/index.html">SandSmile</a></div>
+
           <nav class="main-nav">
-            <div class="logo"><a href="/index.html">SandSmile</a></div>
             <ul class="nav-list">
               <li><a href="#">Мастер-классы</a></li>
               <li><a href="#">Локации</a></li>
               <li><a href="#">Контакты</a></li>
               <li><a href="#">Сувениры</a></li>
             </ul>
-            <div class="phone">+7 812 888-88-88</div>
           </nav>
+
+          <a href="tel:+78128888888" class="phone">+7 812 888-88-88</a>
+
         </div>
       </div>
-    </header>
+    </div>
+
+  </header>
+
+  <main>
 
     <!-- MAIN SCREEN -->
     <section class="promo">
@@ -40,7 +50,7 @@
               SandSmile
             </h1>
             <div class="promo-text">
-              Учим строить  песочные замки, проводим мастер-классы для взрослых и детей в Санкт-Петербурге и
+              Учим строить песочные замки, проводим мастер-классы для взрослых и детей в Санкт-Петербурге и
               ленинградской области
             </div>
           </div>
@@ -101,6 +111,23 @@
             </div>
 
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO -->
+    <section class="photo">
+      <div class="container">
+        <h2>Фото с мероприятий</h2>
+        <div class="slider">
+          <div class="slider-arrow-left"></div>
+          <div class="slider-photo">
+            <img src="/img/slider-items.png" alt="" class="photo">
+            <img src="/img/slider-items.png" alt="" class="photo">
+            <img src="/img/slider-items.png" alt="" class="photo">
+            <img src="/img/slider-items.png" alt="" class="photo">
+          </div>
+          <div class="slider-arrow-right"></div>
         </div>
       </div>
     </section>
@@ -171,36 +198,61 @@
           <h2>Команда</h2>
           <div class="team-card-row">
 
-            <div class="team-card" style="background-image: url(/img/TeamCard_SirLeeWow.png);">
+            <a href="#" class="team-card">
+              <img src="/img/TeamCard_SirLeeWow.png" alt="" class="team-card-img">
               <div class="team-card-title">
                 <p class="team-card-title-text">Sir Lee Wow I</p>
               </div>
-            </div>
+            </a>
 
-            <div class="team-card" style="background-image: url(/img/Penelope.jpeg);">
+            <a href="#" class="team-card">
+              <img src="/img/Penelope.jpeg" alt="" class="team-card-img">
               <div class="team-card-title">
                 <p class="team-card-title-text">Penelope</p>
               </div>
-            </div>
+            </a>
 
-            <div class="team-card" style="background-image: url(/img/MrBB.png);">
+            <a href="#" class="team-card">
+              <img src="/img/MrBB.png" alt="" class="team-card-img">
               <div class="team-card-title">
-                <p class="team-card-title-text">Mr. B.B.</p>
+                <p class="team-card-title-text">Mr. B.B</p>
               </div>
-            </div>
+            </a>
 
-            <div class="team-card" style="background-image: url(/img/TeamCard_SirLeeWow.png);">
+            <a href="#" class="team-card active">
+              <img src="/img/TeamCard_SirLeeWow.png" alt="" class="team-card-img">
               <div class="team-card-title">
                 <p class="team-card-title-text">Sir Lee Wow II</p>
               </div>
-            </div>
+            </a>
+
 
           </div>
 
-          <p class="team-title">Sir Lee Wow II</p>
-          <p>Брат близнец Сира Ли Первого. Вместе с братом - весьма эффективная команда по приготовлению бургеров и
-            прочих закусок. В нашей команде есть легенда, что однажды они сделали столько бургеров, что даже мистер Биг
-            Бургер (Mr. B.B.) не смог их съесть.</p>
+          <div class="team-title-js">
+            <p class="team-title">Sir Lee Wow I</p>
+            <p>Брат близнец Сира Ли Второго. Вместе с братом - весьма эффективная команда по приготовлению бургеров и
+              прочих закусок. В нашей команде есть легенда, что однажды они сделали столько бургеров, что даже мистер Биг
+              Бургер (Mr. B.B.) не смог их съесть.</p>
+          </div>
+
+          <div class="team-title-js">
+            <p class="team-title">Penelope</p>
+            <p>Пенелопа есть в нашей команде, лишь по причине того, чтобы нас не считали сексистами. Такие дела.</p>
+          </div>
+
+          <div class="team-title-js">
+            <p class="team-title">Mr. B.B.</p>
+            <p>В нашей команде есть легенда, что однажды братья Ли сделали столько бургеров, что даже мистер Биг
+              Бургер (Mr. B.B.) не смог их съесть.</p>
+          </div>
+
+          <div class="team-title-js active">
+            <p class="team-title">Sir Lee Wow II</p>
+            <p>Брат близнец Сира Ли Первого. Вместе с братом - весьма эффективная команда по приготовлению бургеров и
+              прочих закусок. В нашей команде есть легенда, что однажды они сделали столько бургеров, что даже мистер Биг
+              Бургер (Mr. B.B.) не смог их съесть.</p>
+          </div>
 
         </div>
       </div>
@@ -255,6 +307,12 @@
 
   </main>
 
+  <!-- FOOTER -->
+  <footer></footer>
+
+  <script src="/scripts/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="/scripts/script.js"></script>
 </body>
 
 </html>

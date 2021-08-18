@@ -1,0 +1,60 @@
+.photo {
+  & .container {
+    background-color: $sand-color;
+    padding-bottom: 100px;
+  }
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .slider-photo {
+    max-width: 83.34%;
+  }
+
+  & .slider-arrow-left {
+    cursor: pointer;
+  }
+
+  & .slider-arrow-right {
+    cursor: pointer;
+  }
+
+  .slick-dots {
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    width: 16.66%;
+    justify-content: space-between;
+  }
+
+  button {
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: gray;
+  }
+
+  .slick-active button {
+    background-color: $accent-color;
+  }
+}
+
+.slider-arrow-left {
+  width: 8.33%;
+  height: 80px;
+  background-image: url(/icons/Vector-2.svg);
+  background-repeat: no-repeat;
+}
+
+.slider-arrow-right {
+  width: 8.33%;
+  height: 80px;
+  background-image: url(/icons/Vector-2.svg);
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}

@@ -3,6 +3,11 @@
   background-color: #152B3C;
 }
 
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -56,5 +61,5 @@
   font-size: 28px;
   line-height: 33px;
   color: #FBF2DA;
-
+  text-decoration: none;
 }
